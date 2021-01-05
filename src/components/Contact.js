@@ -5,12 +5,13 @@ import PropTypes from 'prop-types';
 class Contact extends Component {
     render() {
         const { name, email, phone} = this.props;
+
         return (
-            <div>
+            <div className="card card-body mb-3">
                 <h4>{name}</h4>
-                <ul>
-                    <li>Email: {email}</li>
-                    <li>Tel: {phone}</li>
+                <ul className="list-group">
+                    <li className="list-group-item">Email: {email}</li>
+                    <li className="list-group-item">Tel: {phone}</li>
                 </ul>
             </div>
         )
