@@ -3,4 +3,4 @@
 
 # ContactManager
 * Manages you contact effectiently
-* Like a todo list but fotr your contacts
+* Like a todo list but for your contacts
