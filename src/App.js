@@ -20,8 +20,14 @@ class App extends Component {
 
           <Contact
             name="Karen Smith"
-            email="karensmith22@gmail.com"
+            email="karensmith1987@gmail.com"
             phone="343-334-3434"
+          />
+
+          <Contact
+            name="Henry Joseph"
+            email="bigjoe96@gmail.com"
+            phone="122-002-2211"
           />
         </div>
       </div>
