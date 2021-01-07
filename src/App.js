@@ -1,22 +1,37 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import Contact from "./components/Contact";
+import Header from "./components/Header";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 
-// function App() {
-//   return (
-//     <div className="App">
-      
-//     </div>
-//   );
-// }
+import "./App.css";
 
-class App extends Component{
+class App extends Component {
   render() {
-    return(
+    return (
       <div className="App">
-        <h1>The App Component</h1>
+        <Header branding="Contact Manager" />
+        <div className="container">
+          <Contact
+            name="John Doe"
+            email="jdoe@gmail.com"
+            phone="555-555-5555"
+          />
+
+          <Contact
+            name="Karen Smith"
+            email="karensmith1987@gmail.com"
+            phone="343-334-3434"
+          />
+
+          <Contact
+            name="Henry Joseph"
+            email="bigjoe96@gmail.com"
+            phone="122-002-2211"
+          />
+        </div>
       </div>
-    )
+    );
   }
 }
 
