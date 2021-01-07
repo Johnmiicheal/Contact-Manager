@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
-
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faAngleDown, faSortDown } from '@fortawesome/free-solid-svg-icons';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
+
+library.add(fab, faAngleDown, faSortDown);
 
 class App extends Component {
   render() {
