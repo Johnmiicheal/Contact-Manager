@@ -2,7 +2,7 @@
 
 
 # ContactManager
-* Manages you contact effectiently
+* Manages you contacts effectiently and smoothly. No stress.
 * Like a todo list but for your contacts
 
 
