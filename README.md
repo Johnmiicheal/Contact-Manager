@@ -8,4 +8,5 @@
 
 ### TODO
 
-* Fix ```TypeError: Cannot destructure property 'name' of 'this.props.contact' as it is undefined.```
+* Use Context API & Provider State
+* Add a Context Reducer for actions
