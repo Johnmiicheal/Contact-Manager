@@ -1,9 +1,13 @@
 import React, { Component } from "react";
 import Contacts from "./components/Contacts";
 import Header from "./components/Header";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faAngleDown, faSortDown, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import {
+  faAngleDown,
+  faSortDown,
+  faTimes,
+} from "@fortawesome/free-solid-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
@@ -16,7 +20,7 @@ class App extends Component {
       <div className="App">
         <Header branding="Contact Manager" />
         <div className="container">
-          <Contacts />           
+          <Contacts />
         </div>
       </div>
     );
